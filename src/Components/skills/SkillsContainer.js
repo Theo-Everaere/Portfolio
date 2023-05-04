@@ -7,7 +7,7 @@ const SkillsContainer = ({ title, skills }) => {
       <div className="skills__box">
         <ul className="skills__group">
           {skills.map((skill) => (
-            <IconsHandler skill={skill} />
+            <IconsHandler key={skill.id} skill={skill} />
           ))}
         </ul>
       </div>

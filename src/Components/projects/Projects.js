@@ -41,7 +41,7 @@ const Projects = () => {
       <div className="projects__container container grid">
         <div className="projects__content">
           {cardData.map((project) => (
-            <ProjectCard project={project} />
+            <ProjectCard key={project.id} project={project} />
           ))}
         </div>
       </div>

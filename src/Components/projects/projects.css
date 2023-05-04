@@ -21,8 +21,16 @@
 }
 
 @media screen and (max-width: 576px) {
+  .section__subtitle {
+    font-size: var(--smaller-font-size);
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+  .section__subtitle {
+    font-size: var(--tiny-font-size);
+  }
 }

@@ -54,3 +54,18 @@
   text-align: center;
   font-size: var(--smaller-font-size);
 }
+
+/*=============== BREAKPOINTS ===============*/
+
+@media screen and (max-width: 576px) {
+  .footer__link {
+    font-size: var(--smaller-font-size);
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .footer__link {
+    font-size: var(--tiny-font-size);
+  }
+}

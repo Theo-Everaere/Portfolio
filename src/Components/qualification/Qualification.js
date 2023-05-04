@@ -28,7 +28,7 @@ const Qualification = () => {
             onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
-            Éducation
+            <span className="qualification__tabs-title">Éducation</span>
           </div>
 
           <div
@@ -40,7 +40,7 @@ const Qualification = () => {
             onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experiences
+            <span className="qualification__tabs-title">Experiences</span>
           </div>
 
           <div
@@ -52,7 +52,7 @@ const Qualification = () => {
             onClick={() => toggleTab(3)}
           >
             <i className="bx bx-laptop qualification__icon"></i>
-            E-Formations
+            <span className="qualification__tabs-title">E-Formations</span>
           </div>
         </div>
         {/* TABS CONTENT */}

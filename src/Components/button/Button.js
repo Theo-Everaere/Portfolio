@@ -1,14 +1,13 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from "react";
 
-const Button = ({ href, title, svg, className, download }) => {
+const Button = ({ href, title, svg, className, download, target, rel }) => {
   return (
     <a
       href={href}
       className={className}
       download={download}
-      target="_blank"
-      rel="noreferrer"
+      target={target}
+      rel={rel}
     >
       {title}
       <img src={svg} className="button__icon" />
