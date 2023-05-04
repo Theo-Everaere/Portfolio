@@ -102,17 +102,30 @@
     margin: 0 var(--mb-0-75);
   }
   .qualification__tabs-title {
+    font-size: var(--normal-font-size);
+  }
+}
+
+@media screen and (max-width: 457px) {
+  .qualification__tabs-title {
+    font-size: 0.7rem;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 390px) {
+  .qualification__tabs-title {
     font-size: 0.6rem;
   }
 }
 
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 362px) {
   .qualification__data {
     gap: 0.5rem;
   }
 
   .qualification__tabs-title {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
 }
