@@ -141,6 +141,22 @@ const EFormation = ({ index }) => {
             </span>
           </div>
         </div>
+
+        <div className="qualification__data">
+          <div>
+            <h3 className="qualification__title">
+              Développeur C# <br /> Formation complète
+            </h3>
+            <span className="qualification__subtitle">
+              <strong>24,5 Heures</strong>
+            </span>
+          </div>
+
+          <div>
+            <span className="qualification__rounder"></span>
+            <div className="qualification__line"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

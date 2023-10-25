@@ -45,7 +45,7 @@ const Qualification = () => {
 
           <div
             className={
-              toggle === 2
+              toggle === 3
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }

@@ -58,18 +58,24 @@ export const BACK_SKILLS = [
   },
   {
     id: 3,
+    name: "C#",
+    level: "Intermédiaire",
+    icon: "csharp",
+  },
+  {
+    id: 4,
     name: "Spring",
     level: "Basique",
     icon: "bx bxl-spring-boot",
   },
   {
-    id: 4,
+    id: 5,
     name: "Apache Kafka",
     level: "Intermédiaire",
     icon: "kafkaIcon",
   },
   {
-    id: 5,
+    id: 6,
     name: "Firebase",
     level: "Basique",
     icon: "bx bxl-firebase",
@@ -82,6 +88,12 @@ export const MOBILE_SKILLS = [
     name: "Flutter",
     level: "Intermédiaire",
     icon: "bx bxl-flutter",
+  },
+  {
+    id: 2,
+    name: "React Native",
+    level: "Intermédiaire",
+    icon: "bx bxl-react",
   },
 ];
 
@@ -100,6 +112,11 @@ export const DEV_ENVIRONMENT = [
     id: 3,
     name: "IntelliJ IDEA Community",
     icon: "intellijIdeaIcon",
+  },
+  {
+    id: 4,
+    name: "Visual Studio",
+    icon: "bx bxl-visual-studio",
   },
 ];
 

@@ -1,5 +1,6 @@
 import MoviesJMR from "../../assets/projects_section/MoviesJMR.png";
 import EvogymThumbnail from "../../assets/projects_section/evogym-thumbnail.png";
+import Sociopedia from "../../assets/projects_section/Sociopedia-thumbnail.png";
 
 import ProjectCard from "./ProjectCard";
 
@@ -23,9 +24,25 @@ const cardData = [
     title: "MoviesJMR",
     description:
       "Permet aux utilisateurs d'afficher un carrousel de films, de regarder des bandes-annonces, d'ajouter/lire des critiques.",
-    tech: ["bx bxl-java", "bx bxl-mongodb", "bx bxl-react", "bx bxl-bootstrap"],
+    tech: ["bx bxl-react", "bx bxl-java", "bx bxl-mongodb", "bx bxl-bootstrap"],
     link: "https://www.youtube.com/watch?v=uVThVcEJodk&ab_channel=Th%C3%A9o",
     github: "https://github.com/Theo-Everaere/Movies-Project--Java-React-Mongo",
+    redirection: 2,
+  },
+  {
+    id: 3,
+    imgSrc: Sociopedia,
+    title: "Sociopedia",
+    description:
+      "Application MERN complète et responsive avec authentification, likes, mode sombre | React, MongoDB, MUI",
+    tech: [
+      "bx bxl-react",
+      "bx bxl-nodejs",
+      "bx bxl-expressjs",
+      "bx bxl-mongodb",
+    ],
+    link: "https://www.youtube.com/watch?v=yQEZ3t8MMHA",
+    github: "https://github.com/Theo-Everaere/mern-social-media",
     redirection: 2,
   },
 ];
