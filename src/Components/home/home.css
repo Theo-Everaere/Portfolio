@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   row-gap: 7rem;
-  background-color: red;
 }
 
 .home__content {
@@ -150,13 +149,9 @@
     width: 250px;
     height: 250px;
   }
-  .home__scroll {
-    margin-left: 7.5rem;
-  }
 }
 
 /* For medium devices */
-/* Pour appareils moyens (max-width: 768px) */
 @media screen and (max-width: 768px) {
   .home__content {
     display: flex;
