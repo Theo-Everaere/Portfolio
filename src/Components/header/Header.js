@@ -47,7 +47,7 @@ const Header = () => {
           <i className="uil uil-times nav__close" onClick={showMenuHandler}></i>
         </div>
         <div className="nav__toggle" onClick={showMenuHandler}>
-          Navigation <i className="uil uil-apps"></i>
+          Menu <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>

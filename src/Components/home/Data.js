@@ -31,7 +31,7 @@ const Data = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        Développeur
+        Développeur Fullstack
       </motion.h3>
 
       <motion.p

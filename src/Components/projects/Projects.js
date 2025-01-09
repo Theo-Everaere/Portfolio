@@ -56,6 +56,67 @@ const Projects = () => {
       </span>
 
       <div className="projects__container container grid">
+        <div>
+          <div className="projects__video-container">
+            <h2 className="projects__main-title">
+              Full Stack E-Commerce Project (2025)
+            </h2>
+
+            <iframe
+              width="100%"
+              height="515"
+              src="https://www.youtube.com/embed/5v0sgAPvWF4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div>
+          <h3 className="projects__main-title">Description: </h3>
+          <p className="projects__main-description">
+            Plateforme e-commerce avec gestion de produits, panier et commandes.
+            Développée avec Spring Boot pour le backend et React pour le
+            frontend.
+          </p>
+          <p className="projects__main-description">
+            Ce projet permet aux utilisateurs de gérer une boutique en ligne,
+            avec des fonctionnalités telles que l'ajout, la modification et la
+            suppression de produits. L'application est également responsive, et
+            permet de gérer un panier et de passer commande si l'utilisateur est
+            connecté.
+          </p>
+          <p className="projects__main-description">
+            Les technologies utilisées incluent :
+            <ul>
+              <li>- React (Frontend)</li>
+              <li>- Spring Boot (Backend)</li>
+              <li>- H2 Database (Base de données)</li>
+            </ul>
+          </p>
+          <div className="projects__main-buttons">
+            <a
+              href="https://github.com/Theo-Everaere/FINAL-Full-Stack-E-Commerce-Project---ReactJS-JAVA/tree/main/ecommerce-react"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button button--flex"
+            >
+              Github Frontend
+            </a>
+            <a
+              href="https://github.com/Theo-Everaere/FINAL-Full-Stack-E-Commerce-Project---ReactJS-JAVA/tree/main/ecommerce-project"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button button--flex"
+            >
+              Github Backend
+            </a>
+          </div>
+        </div>
+
+        {/* Autres projets en dessous */}
+        <h2 className="section__title">Autres projets</h2>
         <div className="projects__content">
           {cardData.map((project) => (
             <ProjectCard key={project.id} project={project} />

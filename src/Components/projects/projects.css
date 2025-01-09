@@ -1,3 +1,29 @@
+.projects__video-container {
+  text-transform: uppercase;
+}
+
+.projects__main-title {
+  margin-bottom: 1rem;
+}
+
+.projects__video-container iframe {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.projects__main-description {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.projects__main-buttons {
+  padding: 0.3rem;
+}
+
+.projects__main-buttons a {
+  margin: 0.5rem;
+}
+
 .projects__content {
   margin-top: 1.75rem;
   display: grid;
@@ -11,12 +37,19 @@
   .projects__content {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .projects__main-title {
+    font-size: 1.3rem;
+  }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
   .projects__content {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .projects__main-title {
+    font-size: 1rem;
   }
 }
 
@@ -25,6 +58,10 @@
     font-size: var(--smaller-font-size);
     margin-right: 1rem;
     margin-left: 1rem;
+  }
+
+  .projects__main-buttons a {
+    padding: 1rem 1.5rem;
   }
 }
 

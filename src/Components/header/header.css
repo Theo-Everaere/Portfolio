@@ -49,30 +49,34 @@
 }
 
 @media screen and (max-width: 768px) {
+  /* Header en haut au lieu d'en bas */
   .header {
-    top: initial;
-    bottom: 0;
+    top: 0;
+    bottom: initial; /* Annule la position en bas */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 5px 5px;
   }
 
-  .nav {
-    height: var(--header-height);
-  }
+  /* Menu de navigation en haut */
   .nav__menu {
     position: fixed;
-    bottom: -100%;
+    top: -100%; /* Cache le menu en haut par défaut */
     left: 0;
     width: 100%;
-    background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 1.5rem 1.5rem 0 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Ombre cohérente en haut */
+    border-radius: 0 0 1.5rem 1.5rem;
     transition: 0.3s;
   }
 
+  /* Affichage du menu (en haut) */
   .show-menu {
-    bottom: 0;
+    z-index: 10;
+    top: 0; /* Affiche le menu en haut */
+    background-color: white;
   }
 
+  /* Liste des éléments du menu */
   .nav__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,10 +87,11 @@
     font-size: 1.2rem;
   }
 
+  /* Bouton de fermeture du menu */
   .nav__close {
     position: absolute;
     right: 1.3rem;
-    bottom: 0.5rem;
+    top: 1.5rem; /* Positionnement en haut */
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--title-color);
@@ -96,6 +101,7 @@
     color: var(--title-color-dark);
   }
 
+  /* Bouton toggle pour le menu */
   .nav__toggle {
     font-size: 1rem;
     font-weight: var(--font-normal);
@@ -107,6 +113,10 @@
   .nav__close,
   .nav__toggle {
     display: block;
+    color: black;
+  }
+  .nav__logo {
+    color: black;
   }
 }
 
