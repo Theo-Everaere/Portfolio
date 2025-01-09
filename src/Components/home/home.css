@@ -1,6 +1,12 @@
 .home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   row-gap: 7rem;
+  background-color: red;
 }
+
 .home__content {
   grid-template-columns: 116px repeat(2, 1fr);
   padding-top: 5.5rem;
@@ -85,7 +91,10 @@
 }
 
 .home__scroll {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
 
 .wheel {
@@ -150,60 +159,56 @@
 /* Pour appareils moyens (max-width: 768px) */
 @media screen and (max-width: 768px) {
   .home__content {
-    display: flex; /* Utilisation de flexbox */
-    flex-direction: column; /* Les éléments sont empilés verticalement */
-    justify-content: center; /* Centrage vertical */
-    align-items: center; /* Centrage horizontal */
-    padding-top: 3.5rem; /* Espacement en haut */
-    row-gap: 2rem; /* Espacement entre les éléments */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.5rem;
+    row-gap: 2rem;
   }
 
   .home__social {
-    display: flex; /* Aligne les icônes horizontalement */
-    justify-content: center; /* Centré horizontalement */
-    column-gap: 1rem; /* Espacement entre les icônes */
-    margin-bottom: 1rem; /* Espacement en bas */
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
   }
 
   .home__img {
     order: initial;
-    justify-self: center; /* Centré horizontalement */
+    justify-self: center;
     width: 200px;
     height: 200px;
   }
 
   .home__data {
-    grid-column: auto; /* Supprime les colonnes de grille */
-    text-align: center; /* Centrer le texte */
+    grid-column: auto;
+    text-align: center;
   }
 
   .home__title,
   .home__description {
-    text-align: center; /* Aligne les textes au centre */
+    text-align: center;
   }
 
   .home__subtitle {
-    padding-left: 0; /* Supprime le décalage à gauche */
-    text-align: center; /* Centre le texte */
+    padding-left: 0;
+    text-align: center;
   }
 
   .home__subtitle::before {
-    content: none; /* Désactive le soulignage */
-  }
-
-  .home__subtitle::before {
-    content: none; /* Désactive le pseudo-élément */
+    content: none;
   }
 }
 
 /* Pour petits appareils (max-width: 350px) */
 @media screen and (max-width: 350px) {
   .home__content {
-    row-gap: 1.5rem; /* Réduction de l'espacement vertical pour les petits écrans */
+    row-gap: 1.5rem;
   }
 
   .home__social {
-    column-gap: 0.75rem; /* Réduction de l'espacement pour petits écrans */
+    column-gap: 0.75rem;
   }
 
   .home__img {
