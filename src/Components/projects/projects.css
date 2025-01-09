@@ -49,7 +49,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .projects__main-title {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -61,7 +61,7 @@
   }
 
   .projects__main-buttons a {
-    padding: 1rem 1.5rem;
+    padding: 1rem 0.3rem;
   }
 }
 
