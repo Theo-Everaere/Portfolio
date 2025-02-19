@@ -56,10 +56,11 @@ const Projects = () => {
       </span>
 
       <div className="projects__container container grid">
+        {/* Premier projet Full Stack E-Commerce */}
         <div>
           <div className="projects__video-container">
             <h2 className="projects__main-title">
-              Full Stack E-Commerce Project (2025)
+              Projet E-Commerce Full Stack (2025)
             </h2>
 
             <iframe
@@ -71,10 +72,30 @@ const Projects = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
+            <p>
+              Si la vidéo ne s'affiche pas correctement, vous pouvez la
+              visionner directement sur{" "}
+              <a
+                href="https://www.youtube.com/watch?v=5v0sgAPvWF4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                YouTube
+              </a>
+              ou télécharger la vidéo ici :{" "}
+              <a
+                href="https://www.youtube.com/watch?v=5v0sgAPvWF4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Télécharger la vidéo
+              </a>
+              .
+            </p>
           </div>
         </div>
         <div>
-          <h3 className="projects__main-title">Description: </h3>
+          <h3 className="projects__main-title">Description :</h3>
           <p className="projects__main-description">
             Plateforme e-commerce avec gestion de produits, panier et commandes.
             Développée avec Spring Boot pour le backend et React pour le
@@ -111,6 +132,76 @@ const Projects = () => {
               className="button button--flex"
             >
               Github Backend
+            </a>
+          </div>
+        </div>
+
+        {/* Deuxième projet Full Stack E-Commerce (duplicat) */}
+        <div>
+          <div className="projects__video-container">
+            <h2 className="projects__main-title">MangaMemo (2025)</h2>
+
+            <iframe
+              width="100%"
+              height="515"
+              src="https://www.youtube.com/embed/vBBbZBFhiIk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <p>
+              Si la vidéo ne s'affiche pas correctement, vous pouvez la
+              visionner directement sur{" "}
+              <a
+                href="https://youtube.com/shorts/vBBbZBFhiIk?feature=share"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                YouTube
+              </a>
+              ou télécharger la vidéo ici :{" "}
+              <a
+                href="https://youtube.com/shorts/vBBbZBFhiIk?feature=share"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Télécharger la vidéo
+              </a>
+              .
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3 className="projects__main-title">Description :</h3>
+          <p className="projects__main-description">
+            Application de suivi de lecture de mangas.
+          </p>
+          <p className="projects__main-description">
+            Parcourez les dernières sorties, lisez par catégories, plongez dans
+            vos mangas favoris et gardez-les bien organisés.
+          </p>
+          <ul className="projects__main-description-list">
+            <li>Recherchez des mangas par titre</li>
+            <li>Découvrez leurs informations détaillées</li>
+            <li>Parcourez les chapitres</li>
+            <li>Marquez les chapitres comme lus</li>
+          </ul>
+
+          <p className="projects__main-description">
+            Les technologies utilisées incluent :
+            <ul>
+              <li>- Flutter</li>
+            </ul>
+          </p>
+          <div className="projects__main-buttons">
+            <a
+              href="https://github.com/Theo-Everaere/MangaMemo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button button--flex"
+            >
+              Github
             </a>
           </div>
         </div>
