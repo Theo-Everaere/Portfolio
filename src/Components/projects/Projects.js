@@ -82,14 +82,6 @@ const Projects = () => {
               >
                 YouTube
               </a>
-              ou télécharger la vidéo ici :{" "}
-              <a
-                href="https://www.youtube.com/watch?v=5v0sgAPvWF4"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Télécharger la vidéo
-              </a>
               .
             </p>
           </div>
@@ -136,7 +128,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Deuxième projet Full Stack E-Commerce (duplicat) */}
+        {/* MANGAMEMO */}
         <div>
           <div className="projects__video-container">
             <h2 className="projects__main-title">MangaMemo (2025)</h2>
@@ -160,15 +152,14 @@ const Projects = () => {
               >
                 YouTube
               </a>
-              ou télécharger la vidéo ici :{" "}
-              <a
-                href="https://youtube.com/shorts/vBBbZBFhiIk?feature=share"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Télécharger la vidéo
-              </a>
               .
+            </p>
+
+            <p className="projects__main-disclaimer">
+              <strong>⚠ Disclaimer :</strong> MangaMemo est un projet personnel.
+              L’application utilise l’API MangaDex, et les utilisateurs doivent
+              s’assurer de posséder les droits nécessaires pour lire une œuvre
+              en ligne.
             </p>
           </div>
         </div>
